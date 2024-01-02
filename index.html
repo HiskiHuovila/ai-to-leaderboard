@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container center">
+      <img src="pictures/ai-to-logo.png" style="width: 70%" />
+      <h1>Tulostaulu</h1>
+        <div id="leaderboard"></div>
+        <form id="addScoreForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="score" placeholder="Score" required>
+            <button type="submit">Add Score</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

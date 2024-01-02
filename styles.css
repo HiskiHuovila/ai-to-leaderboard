@@ -1,0 +1,56 @@
+      body {
+        font-family: "Roboto";
+        font-size: 22px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      .center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .container {
+        background: #f2fbf6;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-height: 80%;
+      }
+
+      #leaderboard {
+        margin-bottom: 20px;
+        overflow-y: hidden;
+      }
+
+      form {
+        display: flex;
+        gap: 10px;
+      }
+
+      input {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 8px 16px;
+        border: none;
+        background: #08b552;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #057435;
+      }
